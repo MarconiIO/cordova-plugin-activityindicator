@@ -1,7 +1,8 @@
 var ActivityIndicator = {
     show: function (text) {
-        text = text || "Please wait...";
-        cordova.exec(null, null, "ActivityIndicator", "show", [text]);
+        title = title || "";
+    	message = message || "";
+        cordova.exec(null, null, "ActivityIndicator", "show", [title, message]);
     },
     hide: function () {
         cordova.exec(null, null, "ActivityIndicator", "hide", []);

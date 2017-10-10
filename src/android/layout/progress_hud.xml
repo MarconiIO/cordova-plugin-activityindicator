@@ -18,4 +18,10 @@
         android:layout_height="wrap_content"
         android:text="Message" android:layout_marginTop="15dp" android:textColor="#FFFFFF"/>
 
+    <TextView
+        android:id="@+id/detailMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DetailMessage" android:layout_marginTop="20dp" android:textColor="#FFFFFF"/>
+
 </LinearLayout>
