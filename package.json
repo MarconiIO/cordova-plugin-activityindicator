@@ -1,4 +1,24 @@
 {
-    "name": "org.apache.cordova.plugin.ActivityIndicator",
-    "version": "1.0.3"
-}
+    "name": "cordova-plugin-activityindicator",
+    "version": "1.0.3",
+    "description": "cordova-plugin-activityindicator",
+    "cordova": {
+      "id": "cordova-plugin-activityindicator",
+      "platforms": [
+        "android",
+        "ios"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kanodeveloper/cordova-plugin-activityindicator.git"
+    },
+    "keywords": [
+    ],
+    "author": "",
+    "license": "",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "https://github.com/kanodeveloper/cordova-plugin-activityindicator"
+  }
