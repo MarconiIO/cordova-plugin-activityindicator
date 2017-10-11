@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-activityindicator",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "cordova-plugin-activityindicator",
     "cordova": {
       "id": "cordova-plugin-activityindicator",
@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/kanodeveloper/cordova-plugin-activityindicator.git"
+      "url": ""
     },
     "keywords": [
     ],
@@ -20,5 +20,5 @@
     "bugs": {
       "url": ""
     },
-    "homepage": "https://github.com/kanodeveloper/cordova-plugin-activityindicator"
+    "homepage": ""
   }
