@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-activityindicator"
-	version="1.0.4">
+	version="1.0.5">
 
 	<engines>
 		<engine name="cordova" version=">=3.0.0" />
@@ -35,7 +35,7 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="ActivityIndicator" >
-				<param name="android-package" value="cordova-plugin-activityindicator"/>
+				<param name="android-package" value="org.apache.cordova.plugin.ActivityIndicator"/>
 			</feature>
 		</config-file>
 		<source-file src="src/android/ActivityIndicator.java" target-dir="src/org/apache/cordova/plugin" />
