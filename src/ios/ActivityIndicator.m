@@ -23,7 +23,7 @@
         self.activityIndicator.detailsLabel.text = detailText;
         self.activityIndicator.detailsLabel.textColor = [UIColor whiteColor];
         self.activityIndicator.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-        self.activityIndicator.bezelView.backgroundColor = [UIColor clearColor];
+        self.activityIndicator.bezelView.backgroundColor = [UIColor blackColor];
         self.activityIndicator.activityIndicatorColor = [UIColor whiteColor];
 
         CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@""];
